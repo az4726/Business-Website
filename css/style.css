@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.blue-back{
+  background-color: #0083ee;
+  width: 100%;
+  height: 575px;
+}
+
+/* HEADER AREA */
+
+header{
+  margin-top: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.hiring-text{
+  font-size: 10px;
+  color: white;
+    text-decoration: underline;
+}
+
+.hiring-text:hover{
+  text-decoration: underline;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.get-started{
+  display: inline;
+  float: right;
+}
+
+.get-started-login{
+  background-color: #0083ee;
+  border: none;
+  color: white;
+  font-size: 13px;
+  padding: .5em;
+  border-radius: 3px;
+}
+
+.get-started-free{
+  background-color: #0083ee;
+  color: white;
+  font-size: 13px;
+  border: solid white;
+  border-width: thin;
+  padding: .5em;
+  border-radius: 3px;
+}
+
+.button-hover:hover{
+  background-color: white;
+  color: #0083ee;
+  cursor:pointer;
+}
+
+/* INTRO TEXT CONTENT AREA */
+
+.title-container{
+  text-align: center;
+}
+
+.title-task-text{
+  margin-top: 2em;
+  text-align: center;
+  color: white;
+}
+
+.task-automation-text{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.title-description-text{
+  text-align: center;
+  margin-top: 2em;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3.5em;
+}
+
+.title-email-field{
+  border: solid lightgrey;
+  border-width: thin;
+  height: 2.5em;
+  color: grey;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.aligned{
+  text-align: center;
+}
+
+.title-get-started-button{
+  height: 2.5em;
+  border: solid white;
+  border-width: thin;
+  padding: .5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #0083ee;
+  color: white;
+  border-radius: 3px;
+}
+
+.title-get-started-button:hover{
+  background-color: white;
+  color: #0083ee;
+  cursor:pointer;
+}
+
+.credit-card-text{
+  color: white;
+  font-size: 12px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.title-video-text{
+  font-size: 13px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.watch-video-container{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.title-play-icon{
+  color: white;
+  display: inline-flex;
+  align-content: center;
+  vertical-align: middle;
+  margin-right: -20em;
+  margin-left: 1em;
+  font-size: 8px;
+}
+
+.watch-video-container:hover {
+  cursor: pointer;
+	text-shadow: 0px 0px 10px rgba(255,255,100,1);
+}
+
+/* Features Section */
+
+.workflow-container{
+  margin-top: 5em;
+  text-align: center;
+  color: #000000;
+}
+
+.workflow-picture{
+  margin-top: 1em;
+}
+
+.process-text{
+  text-align: center;
+  font-size: 14px;
+  margin-left: 6em;
+  color: #000000;
+}
+
+.improve-text-container{
+  margin-top: 5em;
+  text-align: center;
+  color: #000000;
+}
+
+.client-onboard-container img{
+  margin-left: 33%;
+  margin-top: 3em;
+}
+
+.light-icon{
+  margin-top: 3em;
+  margin-bottom: 1em;
+  color: #0083ee;
+}
+
+/* Divider styling */
+
+.line-divider{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background-color: #0083ee;
+  height: 1px;
+  width: 90px;
+}
+
+.procedure-text{
+  color: #000000;
+}
+
+.procedure-subtext{
+  font-size: 12px;
+  color: black;
+}
+
+.explore-features-container{
+  margin-top: 3.5em;
+  text-align: center;
+}
+
+.explore-features-button{
+  font-size: 12px;
+  color: #0083ee;
+  background-color: white;
+  border: solid #0083ee;
+  border-width: thin;
+  padding: .75em;
+  border-radius: 3px;
+}
+
+.explore-features-button:hover{
+  background-color: #0083ee;
+  color: white;
+  cursor:pointer;
+}
+
+/* Reviews slideshow */
+
+.arrow-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #000000;
+}
+
+.arrow-container:hover{
+  color: #0083ee;
+  cursor: pointer;
+}
+
+.slideshow-container{
+  margin: 5em 0 5em 0;
+}
+
+.slider{
+  display: none;
+  border: solid #0083ee;
+  border-width: thin;
+  border-radius: 5px;
+  padding: 2em 1em 2em 1em;
+}
+
+.initial-slide{
+  display: block;
+}
+
+.testimonial-text{
+  font-style: italic;
+  font-size: 13px;
+  padding: 0 0 1em 0;
+}
+
+.testimonial-pic{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.testimonial-name{
+  font-size: 18px;
+  width: 50px;
+}
+
+.testimonial-company{
+  color: grey;
+  font-size: 14px;
+}
+
+/* Trusted Companiees */
+
+.trusted-companies-container{
+  text-align: center;
+  color: #403e3e;
+  margin: 2em 0 6em 0;
+}
+
+.trusted-companies{
+  margin-bottom: .5em;
+}
+
+/* Signup banner footer section */
+
+.signup-banner{
+  background-color: #0083ee;
+  text-align: center;
+}
+
+.signup-banner-text-container{
+  color: white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
