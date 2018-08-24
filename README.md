@@ -1,6 +1,6 @@
 # Business-Website
 
-This is the second website I created after my first year at university, to practice my HTML, CSS and Javascript. It is a template for businesses which can be modified to show information related to themselves.
+This is the second website I created, after my first year at university, to practice my HTML, CSS and Javascript. It is a template for businesses which can be modified to show information related to themselves.
 
 ## Getting Started
 
